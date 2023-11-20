@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Technologies:
 - Javascript
 - React 
+- React Router
 - Chart.js
 - Material UI
 - Prettier
