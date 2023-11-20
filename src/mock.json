@@ -1,0 +1,209 @@
+{
+    "news": [
+        {   
+            "id": 1,
+            "title": "Добавлен новый шаблон в презентер",
+            "description": "Добавлен новый шаблон 'Сравнение с предыдущим годом' в презентер"
+        },
+        {
+            "id": 2,
+            "title": "Добавлен атрибут CaseID",
+            "description": "В раздел 'Конструктор выгрузок' добавлено новое измерение CASEID"
+        },
+        {
+            "id": 3,
+            "title": "Обновлен регламент подачи документов",
+            "description": "Обновлен регламент подачи документа 'Отчет за год'"
+        }
+    ],
+    
+    "events": [
+        {
+            "id": 1,
+            "date": "15 февраля 2022",
+            "description": "Старт процесса КРПА"
+        },
+        {
+            "id": 2,
+            "date": "15 апреля 2022",
+            "description": "Некий процесс"
+        },
+        {
+            "id": 3,
+            "date": "10 мая 2022",
+            "description": "Крайний срок загрузки данных"
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": 1,
+            "date": "16 февраля 2022",
+            "description": "Некий сценарий 1"
+        },
+        {
+            "id": 2,
+            "date": "17 апреля 2022",
+            "description": "Некий сценарий 2"
+        },
+        {
+            "id": 3,
+            "date": "10 мая 2022",
+            "description": "Некий сценарий 3"
+        }
+    ],
+
+    "dashboardsItem": [
+        {
+            "id": 1,
+            "title": "Change complexity",
+            "icon": "assignment",
+            "body": "medium-high",
+            "titleBtn": "Update assesment"
+        },
+        {
+            "id": 2,
+            "title": "Change on a plan",
+            "body": 12,
+            "icon": "assignment",
+            "titleBtn": "Update strategy"
+        },
+        {
+            "id": 3,
+            "title": "Deliverables",
+            "icon": "list",
+            "body": {
+                "completed": 7,
+                "total": 12,
+                "overdue": 0
+            },
+            "titleBtn": "Update progeress"
+        },
+        {
+            "id": 4,
+            "title": "Stakeholders",
+            "icon": "people",
+            "body": 2535,
+            "titleBtn": "Stakeholders matrixes"
+        },
+        {
+            "id": 5,
+            "title": "Change Impacts",
+            "icon": "impact",
+            "body": 15,
+            "titleBtn": "Impact heatmap"
+        },
+        {
+            "id": 6,
+            "title": "Risks",
+            "icon": "risk",
+            "body": {
+                "completed": 2,
+                "total": 6,
+                "overdue": 4
+            },
+            "titleBtn": "Risks heatmap"
+        },
+        {
+            "id": 7,
+            "title": "Activities",
+            "icon": "activities",
+            "body": {
+                "completed": 2,
+                "total": 38,
+                "overdue": 2
+            },
+            "titleBtn": "Activity burden heatmap"
+        }
+    ],
+
+    "activities": [
+        {
+            "id": 1,
+            "due": "05/13/20",
+            "interventon": "Policy & procedure change",
+            "title": "",
+            "targetAudience": 60,
+            "timeAwayFromBAU": 30,
+            "changePhase": "Know-how"
+        },
+        {
+            "id": 2,
+            "due": "05/29/23",
+            "interventon": "Meeting",
+            "title": "Test 9-11-22",
+            "targetAudience": 8,
+            "timeAwayFromBAU": 30,
+            "changePhase": "Awareness"
+        }
+    ],
+
+    "itemsWorkerTable": [
+        {
+            "id": 1,
+            "data": "12/02/22",
+            "metric": "Uptake",
+            "stakeholders": 4,
+            "responses": "1/1",
+            "manualScore": "",
+            "aggregatedScore": 4,
+            "phase": "Know-how",
+            "notes": ""
+        },
+        {
+            "id": 2,
+            "data": "12/02/22",
+            "metric": "Uptake",
+            "stakeholders": 5,
+            "responses": "1/1",
+            "manualScore": "",
+            "aggregatedScore": 5,
+            "phase": "Ability",
+            "notes": ""
+        },
+        {
+            "id": 3,
+            "data": "12/05/22",
+            "metric": "Proficiency",
+            "stakeholders": 5,
+            "responses": "1/1",
+            "manualScore": "",
+            "aggregatedScore": 5,
+            "phase": "Ability",
+            "notes": ""
+        },
+        {
+            "id": 4,
+            "data": "12/09/22",
+            "metric": "Uptake",
+            "stakeholders": null,
+            "responses": "0/1411",
+            "manualScore": 4,
+            "aggregatedScore": 4,
+            "phase": "Know-how",
+            "notes": ""
+        },
+        {
+            "id": 5,
+            "data": "12/09/22",
+            "metric": "Uptake",
+            "stakeholders": 4,
+            "responses": "1/1",
+            "manualScore": "",
+            "aggregatedScore": 4,
+            "phase": "Sustainment",
+            "notes": ""
+        },
+        {
+            "id": 6,
+            "data": "12/09/22",
+            "metric": "Usage outcome",
+            "stakeholders": 3,
+            "responses": "10/14",
+            "manualScore": "",
+            "aggregatedScore": 3,
+            "phase": "Ability",
+            "notes": ""
+        }
+    ]
+}
